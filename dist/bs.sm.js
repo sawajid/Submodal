@@ -80,7 +80,7 @@
                 },
                 toggle: function(){
                     var $submodal = $(this);
-                    var fn = $subModal.is(':visible') ? 'close' : 'open';
+                    var fn = $submodal.is(':visible') ? 'close' : 'open';
                     modal[fn].call($submodal);
                 }
             };
